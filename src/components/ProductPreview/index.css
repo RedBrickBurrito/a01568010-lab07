@@ -1,0 +1,59 @@
+.productPreview {
+  margin: 10px;
+  padding: 10px;
+}
+
+a:link {
+  color: #c2eabd;
+  text-decoration: none;
+}
+a:hover {
+  color: #c2eabd;
+}
+
+a:visited {
+  color: #c2eabd;
+}
+
+a:active {
+  color: #c2eabd;
+}
+
+img.mediumImage {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+div.mediumImage {
+  box-shadow: none;
+  background-color: #fafafa;
+}
+
+.productLabel {
+  color: #fafafa !important;
+  font-weight: bold !important;
+}
+
+.addCartButton {
+  background-color: #ed254e !important;
+  color: #fafafa !important;
+}
+
+.productName {
+  color: #c2eabd;
+  font-size: 3em !important;
+}
+
+.productGrid {
+  color: #fafafa !important;
+  flex-grow: 1;
+}
+
+.dollars:before {
+  content: "$";
+}
+
+.crossedout {
+  color: #ed254e;
+  text-decoration: line-through;
+}
